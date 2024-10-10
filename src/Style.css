@@ -20,6 +20,10 @@ h2 {
     text-align: center;
 }
 
+h3, h4 {
+    color: #4180ab;
+}
+
 h5 {
     color: #c85d00;
 }
@@ -49,8 +53,8 @@ a {
 }
 
 .img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin: 20px auto;
     overflow: hidden;
     border-radius: 50%;
@@ -87,8 +91,8 @@ a {
 
 .terminal-loader {
 border: 0.1em solid #333;
-background-color: #404040;
-color: #c85d00;
+background-color: #585858;
+color: #ff7700;
 font-family: "Courier New", Courier, monospace;
 font-size: 1em;
 padding: 1.5em 1em;
@@ -168,7 +172,7 @@ max-width: 18em; /* Adicionado para limitar a largura do texto */
     border: none;
     cursor: pointer;
     --border-right: 6px;
-    --text-stroke-color: #8ab3cf;
+    --text-stroke-color: #cecece;
     --animation-color: #4180ab;
     --fs-size: 2em;
     letter-spacing: 3px;
